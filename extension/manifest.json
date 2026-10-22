@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Sayfa Özetleyici (Qwen)",
+  "version": "1.0.0",
+  "description": "Aktif sekmedeki metni yerel Qwen-Agent sunucusuyla Türkçe özetler.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:7864/*"],
+  "action": {
+    "default_title": "Sayfayı özetle",
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,26 @@
+# Python sanal ortamı ve önbellekler
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Qwen-Agent'ın çalışırken oluşturduğu klasör
+workspace/
+
+# Ortam değişkenleri / gizli bilgiler
+.env
+.env.*
+
+# Chrome eklenti paketi ve özel anahtarı
+*.crx
+*.pem
+
+# Kayıtlar, editör ve işletim sistemi dosyaları
+*.log
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+Desktop.ini
+.DS_Store

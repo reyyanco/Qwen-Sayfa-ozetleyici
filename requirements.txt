@@ -1,0 +1,12 @@
+qwen-agent>=0.0.34
+# qwen-agent 0.0.34 bunları içe aktarıyor ama bağımlılık olarak bildirmiyor.
+# numpy 2.5.x DLL'i bu makinede Windows Uygulama Denetimi'ne takıldı, bu yüzden <2.5.
+numpy<2.5
+soundfile
+tqdm
+python-dateutil
+fastapi
+uvicorn
+httpx
+# yalnızca testler için
+pytest
